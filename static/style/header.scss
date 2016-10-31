@@ -1,0 +1,41 @@
+
+@import 'util';
+
+$header-color: black;
+$logo-height: 32px;
+$header-height: 64px;
+$header-padding: ($header-height - $logo-height) / 2;
+
+#header {
+  background-color: rgba($header-color, 0);
+  background-image: linear-gradient(to bottom, rgba($header-color, 0.8), transparent);
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: $header-height * 2;
+
+  padding: $header-padding 0;
+
+  z-index: $z-header;
+  
+  .contents {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-left: 16px;
+    display: block;
+
+    img {
+      height: $logo-height;
+    }
+    
+  }
+  
+}

@@ -1,0 +1,268 @@
+[
+  
+  {
+    "url":          "http://www.justatinker.com/Future/",
+    "tags":        ["3d", "written", "web"],
+
+    "name":         "The Future of Space Launch is Near",
+    "blurb":        "An illustrated guide to SpaceX's launch vehicle reusability plans; cowritten with John Gardi and published on 13 December 2014, just 6 days before the original launch date of CRS-5.",
+
+    "image":        "future-is-near.png",
+
+    "medium":       "web",
+    "tools":       ["blender", "gimp", "inkscape", "emacs"],
+
+    "roles":       ["co-author (with John Gardi)", "art", "diagrams", "website"]
+  },
+  
+  {
+    "featured":     true,
+    "url":          "https://zlsa.github.io/infographics/",
+    "tags":        ["art", "space", "spacex", "ula"],
+
+    "name":         "Launch Vehicle and Spacecraft Infographics",
+    "blurb":        "A series of infographics that explain the concepts and engineering behind launch vehicles, spacecraft, and their trajectories. Featuring SpaceX and ULA vehicles.",
+
+    "image":        "infographics.png",
+
+    "medium":       "2d",
+    "tools":       ["inkscape"],
+
+    "roles":       ["design", "research"]
+  },
+  
+  {
+    "url":          "https://medium.com/@zlsa/spacexs-journey-to-mars-2018-4c441bf7d176/",
+    "tags":        ["written", "art", "spacex"],
+
+    "name":         "SpaceX's Journey to Mars: 2018 Red Dragon",
+    "blurb":        "A short article, designed for those new to SpaceX, that explains the 2018 Red Dragon mission",
+
+    "image":        "red-dragon-2018-entry.png",
+
+    "medium":       "web",
+    "tools":       ["inkscape", "blender"],
+
+    "roles":       ["author", "art", "research"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "url":          "http://zlsa.github.io/autogyro/",
+    "tags":        ["android", "app", "material design"],
+
+    "name":         "Autogyro",
+    "blurb":        "Manually control the orientation of your Android device, no gyroscope necessary.",
+
+    "image":        "autogyro.jpg",
+
+    "medium":       "android",
+    "tools":       ["android studio", "inkscape"],
+
+    "roles":       ["designer", "programmer", "artist"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "url":          "http://zlsa.github.io/atc/",
+    "tags":        ["aviation", "web", "code", "game"],
+
+    "name":         "Air Traffic Control",
+    "blurb":        "An air traffic control simulation game. If you think it's too easy, wait for it.",
+
+    "image":        "atc.png",
+
+    "medium":       "web",
+    "tools":       ["emacs"],
+
+    "roles":       ["art", "programmer", "website"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "url":          "https://zlsa.github.io/indoc/",
+    "tags":        ["documentation", "nodejs"],
+
+    "name":         "Indoc: inline documentation generator",
+    "blurb":        "A NodeJS library/command line tool to generate documentation from comments in the code.",
+
+    "image":        "indoc.png",
+
+    "medium":       "javascript",
+    "tools":       ["emacs"],
+
+    "roles":       ["design", "programmer"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+    
+    "url":          "images/f9/falcon-9-v1.2-launch-high-altitude.png",
+    "tags":        ["art", "space", "3d"],
+
+    "name":         "SpaceX Falcon 9 v1.2",
+    "blurb":        "A very high quality model of the upcoming SpaceX Falcon 9 v1.2 rocket.",
+
+    "image":        "f9-v12.png",
+
+    "medium":       "3d",
+    "tools":       ["blender"],
+
+    "roles":       ["art"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+    
+    "url":          "images/spacex-infographic-full.png",
+    "tags":        ["2d", "art", "space"],
+
+    "name":         "Falcon 9 vs New Shepard",
+    "blurb":        "A to-scale comparison of the New Shepard flight and the Falcon 9 return to launch site.",
+
+    "image":        "spacex-infographic.png",
+
+    "medium":       "2d",
+    "tools":       ["inkscape"],
+
+    "roles":       ["art", "diagrams", "website"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+
+    "url":          "images/earth-moon-full.png",
+    "tags":        ["art", "space", "3d"],
+
+    "name":         "Earth and moon",
+    "blurb":        "High quality render of the Earth and moon",
+
+    "image":        "earth-moon.png",
+
+    "medium":       "3d",
+    "tools":       ["blender"],
+
+    "roles":       ["art"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+
+    "url":          "",
+    "tags":        ["design"],
+
+    "name":         "Team Fortress 2 Sentry Gun",
+    "blurb":        "Team Fortress 2's level 1 sentry gun. Modeling, shading, and rendering took 8 hours from start to finish. The only textures in the image are the concrete and the walls; the sentry texturing is entirely procedural.",
+
+    "image":        "sentry.png",
+
+    "medium":       "3d",
+    "tools":       ["blender", "cycles"],
+
+    "roles":       ["art"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+
+    "url":          "http://zlsa.github.io/piper-archer/",
+    "tags":        ["art", "aviation", "simulation"],
+
+    "name":         "Piper Archer CX",
+    "blurb":        "A semi-fictional general aviation aircraft for the FlightGear flight simulator.",
+
+    "image":        "piper-archer.png",
+
+    "medium":       "3d",
+    "tools":       ["blender", "gimp", "inkscape", "emacs"],
+
+    "roles":       ["art", "programming"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+
+    "url":          "",
+    "tags":        ["design"],
+
+    "name":         "Tesla Model S postcard",
+    "blurb":        "Intended to be given out by the owner to those interested in the Model S.",
+
+    "image":        "tesla.png",
+
+    "medium":       "paper",
+    "tools":       ["inkscape", "blender"],
+
+    "roles":       ["art"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "url":          "http://zlsa.github.io/f9r-dev2d/",
+    "tags":        ["spacex", "web", "code", "game"],
+
+    "name":         "F9R-Dev2D",
+    "blurb":        "A simple 2D Falcon 9 test vehicle simulation, featuring semi-realistic gameplay &mdash; er, simulation &mdash; and an autopilot.",
+
+    "image":        "f9r-dev2d.png",
+
+    "medium":      "web",
+    "tools":       ["inkscape", "emacs"],
+
+    "roles":       ["art", "programmer", "website"]
+  },
+
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+
+    "url":          "images/low-poly-space-full.png",
+    "tags":        ["art", "space", "3d", "lowpoly"],
+
+    "name":         "Low-poly rocket and plane",
+    "blurb":        "A low-poly rocket and plane. Originally created as concept art for an abandoned space game.",
+
+    "image":        "low-poly-space.png",
+
+    "medium":       "3d",
+    "tools":       ["blender", "gimp"],
+
+    "roles":       ["art"]
+  },
+  
+  {
+    "compact":      true,
+    
+    "ignore":       true,
+    
+    "url":          "https://github.com/adamskubel/virtualdragon",
+    "tags":        ["art", "space", "3d"],
+
+    "name":         "SpaceX Falcon 9 v1.1 and Dragon v2 game model",
+    "blurb":        "A game-quality model of the Falcon 9 v1.1 and Dragon v2; the F9 model is 8300 polys while the Dv2 is 9200.",
+
+    "image":        "virtualdragon.png",
+
+    "medium":       "3d",
+    "tools":       ["blender", "inkscape", "gimp"],
+
+    "roles":       ["art"]
+  }
+]

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  
+  <head>
+    
+    <title>ZLSA Design</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="static/style/compiled.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="static/scripts/main.js"></script>
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <span class="contents">
+        <span class="logo"><img src="static/logo.png" alt="ZLSA Design" /></span>
+      </span>
+    </header>
+
+    <div id="about-me">
+      
+      <div class="contents">
+        <h1>I explain things.</h1>
+        <h2>with <span class="medium art">art</span>, <span class="medium code">code</span>, and <span class="medium text">writing</span>.</h2>
+      </div>
+      
+    </div>
+
+    <div id="featured-project">
+      
+      <img class="hero" style="background-image: url({{projects.featured.image.tiny_url}})"
+           src="{{projects.featured.image.url}}" />
+
+      <div class="description">
+        <h1 class="name"><a href="{{projects.featured.url}}" title="View Project" target="_blank" rel="nofollow">{{projects.featured.name}}</a></h1>
+      </div>
+      
+    </div>
+
+    <main>
+
+      <div id="projects">
+        {{{projects.html}}}
+      </div>
+
+    </main>
+    
+  </body>
+  
+</html>

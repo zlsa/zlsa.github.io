@@ -1,0 +1,22 @@
+<div class="project {{classes}}">
+  
+  {{^compact}}
+  <a href="{{url}}" target="_blank" rel="nofollow" title="View Project"><img src="{{image.side_url}}" /></a>
+  {{/compact}}
+  
+  <div class="info">
+    <h1><a href="{{url}}" target="_blank" rel="nofollow" title="View Project">{{name}}</a></h1>
+    <div class="blurb">{{blurb}}</div>
+    <ul class="tags">
+      {{#tags}}
+      <li>{{tag}}</li>
+      {{/tags}}
+    </ul>
+    <ul class="tools">
+      {{#tools}}
+      <li>{{tool}}</li>
+      {{/tools}}
+    </ul>
+  </div>
+  
+</div>

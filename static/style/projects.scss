@@ -1,0 +1,104 @@
+
+$margin: 16px;
+
+#projects {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  max-width: 1200px;
+
+  .project {
+    padding: $margin $margin/2;
+    margin: 0 $margin/2;
+
+    overflow: hidden;
+  
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+
+    img {
+      display: block;
+      width: 480px;
+      height: 320px;
+    }
+
+    .info {
+
+      display: flex;
+      flex-direction: column;
+
+      margin: $margin;
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #444;
+
+        margin-bottom: 8px;
+
+        a {
+          text-decoration: none;
+        }
+        
+      }
+
+      ul {
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+        }
+
+        position: absolute;
+        bottom: $margin;
+
+        &.tools {
+          right: 0;
+          color: #888;
+          font-style: italic;
+          
+          li + li:before {
+            content: ',';
+            margin-left: -4px;
+            margin-right: 4px;
+            display: inline-block;
+          }
+          
+        }
+
+        &.tags {
+          left: 480px + $margin * 1.5;
+          color: #888;
+
+          font-weight: bold;
+
+          li + li:before {
+            content: '/';
+            margin: 0 8px;
+            display: inline-block;
+          }
+          
+        }
+        
+      }
+
+    }
+
+    &.compact {
+      min-height: 192px;
+      .tags {
+        left: $margin * 1.5 !important;
+      }
+    }
+    
+  }
+  
+  .project + .project {
+    border-top: 1px dashed rgba(black, 0.3);
+  }
+  
+}

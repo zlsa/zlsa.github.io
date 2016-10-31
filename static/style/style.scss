@@ -1,0 +1,27 @@
+
+@import 'reset';
+
+@import 'util';
+@import 'header';
+@import 'about';
+@import 'featured';
+
+@import 'projects';
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+}
+
+main {
+  box-shadow: 0 0 30px rgba(black, 0.6);
+  background: white;
+  position: relative;
+  z-index: $z-main;
+}
+
+a {
+  text-decoration: underline;
+}

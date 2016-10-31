@@ -1,0 +1,13 @@
+{
+  "name": "zlsa-design-website",
+  "description": "ZLSA Design website",
+  "author": "Jon Ross <jonross.zlsa@gmail.com> (https://zlsadesign.com/)",
+  "version": "0.0.1",
+  "dependencies": {
+    "hogan.js": "^3.0.2",
+    "jimp": "^0.2.27",
+    "sharp": "^0.16.2",
+    "toml": "^2.3.0"
+  },
+  "devDependencies": {}
+}
