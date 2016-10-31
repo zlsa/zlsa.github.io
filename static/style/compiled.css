@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 * {
   background: none;
   border: none;
@@ -127,6 +128,25 @@
       font-weight: bold;
       font-size: 24px; }
 
+.contact {
+  background-color: #ddd;
+  padding: 24px 0; }
+  .contact .wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 16px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center; }
+    .contact .wrapper a {
+      display: inline-block;
+      line-height: 48px;
+      color: #888; }
+    .contact .wrapper a + a {
+      margin-left: 48px; }
+
 #projects {
   display: flex;
   flex-direction: column;
@@ -187,10 +207,14 @@
 html, body {
   overflow-x: hidden; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
 main {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   background: white;
   position: relative;
+  padding-top: 24px;
   z-index: 1000; }
 
 a {

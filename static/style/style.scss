@@ -1,10 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 @import 'reset';
 
 @import 'util';
 @import 'header';
 @import 'about';
 @import 'featured';
+@import 'contact';
 
 @import 'projects';
 
@@ -13,12 +16,14 @@ html, body {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
   box-shadow: 0 0 30px rgba(black, 0.6);
   background: white;
   position: relative;
+  padding-top: 24px;
   z-index: $z-main;
 }
 

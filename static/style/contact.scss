@@ -1,0 +1,32 @@
+
+.contact {
+  background-color: #ddd;
+  padding: 24px 0;
+
+  .wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+    padding-left: 16px;
+    
+    font-weight: bold;
+    font-size: 24px;
+
+    text-align: center;
+
+    a {
+      display: inline-block;
+      line-height: 48px;
+
+      color: #888;
+    }
+
+    a + a {
+      margin-left: 48px;
+    }
+    
+  }
+
+}
