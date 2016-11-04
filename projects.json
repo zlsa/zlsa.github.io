@@ -16,8 +16,23 @@
   },
   
   {
+    "url":          "indoc/",
+    "tags":        ["documentation", "nodejs"],
+
+    "name":         "Indoc: inline documentation generator",
+    "blurb":        "A NodeJS library/command line tool to generate documentation from comments in the code. It's similar to (and inspired by) docco, but indoc creates documentation for a unified project instead of a per-file basis.",
+
+    "image":        "indoc.png",
+
+    "medium":       "javascript",
+    "tools":       ["emacs"],
+
+    "roles":       ["design", "programmer"]
+  },
+  
+  {
     "featured":     true,
-    "url":          "https://zlsa.github.io/infographics/",
+    "url":          "infographics/",
     "tags":        ["art", "space", "spacex", "ula"],
 
     "name":         "Launch Vehicle and Spacecraft Infographics",
@@ -49,7 +64,7 @@
   {
     "compact":      true,
     
-    "url":          "http://zlsa.github.io/autogyro/",
+    "url":          "autogyro/",
     "tags":        ["android", "app", "material design"],
 
     "name":         "Autogyro",
@@ -66,11 +81,11 @@
   {
     "compact":      true,
     
-    "url":          "http://zlsa.github.io/atc/",
+    "url":          "atc/",
     "tags":        ["aviation", "web", "code", "game"],
 
     "name":         "Air Traffic Control",
-    "blurb":        "An air traffic control simulation game. If you think it's too easy, wait for it.",
+    "blurb":        "An air traffic control simulation game that runs in any browser. 100% free.",
 
     "image":        "atc.png",
 
@@ -78,23 +93,6 @@
     "tools":       ["emacs"],
 
     "roles":       ["art", "programmer", "website"]
-  },
-  
-  {
-    "compact":      true,
-    
-    "url":          "https://zlsa.github.io/indoc/",
-    "tags":        ["documentation", "nodejs"],
-
-    "name":         "Indoc: inline documentation generator",
-    "blurb":        "A NodeJS library/command line tool to generate documentation from comments in the code.",
-
-    "image":        "indoc.png",
-
-    "medium":       "javascript",
-    "tools":       ["emacs"],
-
-    "roles":       ["design", "programmer"]
   },
   
   {
